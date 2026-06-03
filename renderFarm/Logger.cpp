@@ -2,6 +2,7 @@
 #include <iostream>
 #include <fstream>
 #include <chrono>
+#include <mutex>
 
 Logger::Logger(std::string nombre) : archivo_nombre(nombre) {}
 
