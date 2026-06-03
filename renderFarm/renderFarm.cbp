@@ -35,7 +35,11 @@
 		<Unit filename="Job.h" />
 		<Unit filename="Logger.cpp" />
 		<Unit filename="Logger.h" />
+		<Unit filename="VRAMPool.cpp" />
+		<Unit filename="VRAMPool.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="semaforo.cpp" />
+		<Unit filename="semaforo.h" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
