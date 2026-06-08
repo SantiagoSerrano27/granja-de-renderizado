@@ -149,6 +149,8 @@ int main() {
         jobs_a_producir = 0;
     }
 
+    logger.inicializar_archivo();
+
     std::cout << "\nIniciando simulacion concurrente..." << std::endl;
     auto start_time = std::chrono::high_resolution_clock::now();
 

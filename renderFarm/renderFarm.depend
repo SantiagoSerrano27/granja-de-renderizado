@@ -2,3 +2,55 @@
 1740933562 source:c:\users\sosam\onedrive\desktop\santi\granja-de-renderizado\renderfarm\main.cpp
 	<iostream>
 
+1780700423 source:c:\users\juani\desktop\tp programacion\granja-de-renderizado\renderfarm\logger.cpp
+	"Logger.h"
+	<iostream>
+	<fstream>
+	<chrono>
+	<mutex>
+
+1780700423 c:\users\juani\desktop\tp programacion\granja-de-renderizado\renderfarm\logger.h
+	<string>
+	<mutex>
+	"Job.h"
+
+1780700423 c:\users\juani\desktop\tp programacion\granja-de-renderizado\renderfarm\job.h
+
+1780700423 source:c:\users\juani\desktop\tp programacion\granja-de-renderizado\renderfarm\semaforo.cpp
+	"semaforo.h"
+
+1780700423 c:\users\juani\desktop\tp programacion\granja-de-renderizado\renderfarm\semaforo.h
+	<mutex>
+	<condition_variable>
+
+1780700423 source:c:\users\juani\desktop\tp programacion\granja-de-renderizado\renderfarm\vrampool.cpp
+	"VRAMPool.h"
+	<thread>
+	<chrono>
+
+1780700423 c:\users\juani\desktop\tp programacion\granja-de-renderizado\renderfarm\vrampool.h
+	<mutex>
+	"Job.h"
+	"semaforo.h"
+
+1780700423 source:c:\users\juani\desktop\tp programacion\granja-de-renderizado\renderfarm\messagequeue.cpp
+	"MessageQueue.h"
+	<chrono>
+
+1780700423 c:\users\juani\desktop\tp programacion\granja-de-renderizado\renderfarm\messagequeue.h
+	<vector>
+	<mutex>
+	"Job.h"
+	"semaforo.h"
+
+1780875169 source:c:\users\juani\desktop\tp programacion\granja-de-renderizado\renderfarm\main.cpp
+	<iostream>
+	<thread>
+	<vector>
+	<chrono>
+	<atomic>
+	"Job.h"
+	"MessageQueue.h"
+	"VRAMPool.h"
+	"Logger.h"
+
